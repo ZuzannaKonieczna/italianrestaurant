@@ -1,0 +1,65 @@
+body{
+  margin: auto;
+  
+}
+#logo{  
+  background-color: gray;     
+  text-align: center;   
+  padding: 10px;
+  color: white;  
+}
+
+p {
+  padding-top: 30px ;
+  font-size: large;
+}
+
+nav {
+  margin-top: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  position: relative; 
+  left: 25%;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: gray;
+  margin-bottom: 50px;
+}
+
+nav a {
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav ul {
+  padding: 45px;  
+}
+
+#photo{
+  width: 50%;
+  float: left;
+}
+#content{
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+  text-align: justify;
+}
+img{
+  margin-left: 100px;
+}
+#contact{
+  clear: both;
+}
+#footer{
+  
+  background-color: gray;     
+  text-align: center;   
+  padding: 10px;
+  color: white;  
+}
