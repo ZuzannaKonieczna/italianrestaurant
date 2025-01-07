@@ -3,7 +3,7 @@ body{
   
 }
 #logo{  
-  background-color: gray;     
+  background-color: #E6771D;     
   text-align: center;   
   padding: 10px;
   color: white;  
@@ -26,7 +26,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: gray;
+  background-color: black;
   margin-bottom: 50px;
 }
 
@@ -37,29 +37,35 @@ nav a {
   padding: 10px 20px;
 }
 nav ul {
-  padding: 45px;  
-}
-
-#photo{
-  width: 50%;
-  float: left;
+  padding:90px;  
 }
 #content{
   width: 40%;
-  float: right;
+  padding-left: 35%;
   margin-right: 10%;
   text-align: justify;
 }
-img{
+#logos{
   margin-left: 100px;
 }
 #contact{
   clear: both;
+  padding-top: 20px;
 }
 #footer{
   
-  background-color: gray;     
+  background-color: black;     
   text-align: center;   
   padding: 10px;
   color: white;  
+}
+
+ #photos{
+ /*padding-bottom: 10px;*/
+  padding-left: 10px;
+  margin-left: 10%;
+}
+
+#photo_menu{
+  margin-bottom: 100px;
 }
