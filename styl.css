@@ -3,7 +3,7 @@ body{
   
 }
 #logo{  
-  background-color: #E6771D;     
+  background-color: #326647;     
   text-align: center;   
   padding: 10px;
   color: white;  
@@ -37,12 +37,12 @@ nav a {
   padding: 10px 20px;
 }
 nav ul {
-  padding:90px;  
+  padding:20%;  
 }
 #content{
   width: 40%;
-  padding-left: 35%;
-  margin-right: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: justify;
 }
 #logos{
@@ -68,4 +68,9 @@ nav ul {
 
 #photo_menu{
   margin-bottom: 100px;
+}
+
+video{
+  margin-left: 30%;
+  margin-right: 30%;
 }
