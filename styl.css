@@ -44,6 +44,10 @@ nav ul {
   margin-left: 30%;
   margin-right: 30%;
   text-align: justify;
+  display: right;
+}
+#index{
+  width:40%;
 }
 #logos{
   margin-left: 100px;
@@ -53,8 +57,8 @@ nav ul {
   padding-top: 20px;
 }
 #footer{
-  
-  background-color: black;     
+  clear: both;
+  background-color: #326647;     
   text-align: center;   
   padding: 10px;
   color: white;  
@@ -68,9 +72,4 @@ nav ul {
 
 #photo_menu{
   margin-bottom: 100px;
-}
-
-video{
-  margin-left: 30%;
-  margin-right: 30%;
 }
