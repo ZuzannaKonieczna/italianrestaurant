@@ -39,15 +39,19 @@ nav a {
 nav ul {
   padding:20%;  
 }
-#content{
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+#content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; /* Items side by side */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Space between video and text */
   text-align: justify;
-  display: right;
+  padding-bottom: 10%;
 }
+
 #index{
-  width:40%;
+  width:50%;
 }
 #logos{
   margin-left: 100px;
