@@ -1,6 +1,8 @@
 body{
   margin: auto;
-  
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background for better contrast */
+  color: #333;
 }
 #logo{  
   background-color: #326647;     
@@ -15,27 +17,29 @@ p {
 }
 
 nav {
-  margin-top: 1px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 50%;
+  margin: 20px auto;
+  width: 60%;
   border-radius: 10px;
   display: flex;
-  position: relative; 
-  left: 25%;
-  justify-content: space-between;
+  justify-content: space-around; /* Center links evenly */
   align-items: center;
   height: 60px;
-  background-color: black;
-  margin-bottom: 50px;
+  background-color: #444; /* Darker color for nav */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 nav a {
-  font-size: x-large;
+  font-size: large;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
+  transition: color 0.3s ease; /* Smooth hover transition */
 }
+
+nav a:hover {
+  color: #ffd700; /* Add a gold hover effect */
+}
+
 nav ul {
   padding:20%;  
 }
@@ -68,12 +72,29 @@ nav ul {
   color: white;  
 }
 
- #photos{
- /*padding-bottom: 10px;*/
-  padding-left: 10px;
-  margin-left: 10%;
+#photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between images */
+  width: 90%; /* Center the gallery */
+  margin: 0 auto; /* Align it to the center */
+  padding: 20px;
+}
+
+#photos img {
+  width: 100%;
+  border-radius: 10px; /* Smooth edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#photos img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
 #photo_menu{
-  margin-bottom: 100px;
+ padding: 10px;
+ width: 30%;
+
 }
