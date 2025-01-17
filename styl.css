@@ -205,6 +205,8 @@ video {
   }
   .logo{
     width: 300px;
+    text-align: left;
+
   }
 }
 
