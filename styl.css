@@ -1,8 +1,8 @@
 body {
   margin: auto;
-  font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
+  font-family: 'Baskervville';
 }
 
 #logo {  
@@ -203,4 +203,8 @@ video {
     font-size: 12px;
     padding: 10px;
   }
+  .logo{
+    width: 80%;
+  }
 }
+
