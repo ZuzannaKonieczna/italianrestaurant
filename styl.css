@@ -32,9 +32,7 @@ nav a {
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #ffd700;
-}
+
 
 #photos {
   display: grid;
@@ -130,7 +128,7 @@ video {
 }
 
 /* Show the hamburger icon and hide menu on small screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   nav {
     width: 100%;
     flex-direction: column;
