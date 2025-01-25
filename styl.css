@@ -126,6 +126,35 @@ video {
   color: white;
   font-size: large;
 }
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none; /* Usuń podkreślenie */
+  color: white;
+  background-color: #333;
+  border-radius: 5px;
+  font-family: 'Baskervville', serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #0056b3; /* Zmiana koloru przy najechaniu */
+}
+
+.nav-link:active {
+  background-color: #003f7f; /* Zmiana koloru po kliknięciu */
+}
+
 
 /* Show the hamburger icon and hide menu on small screens */
 @media (max-width: 480px) {
