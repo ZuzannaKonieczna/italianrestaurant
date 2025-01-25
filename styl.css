@@ -22,6 +22,8 @@ nav {
   height: 60px;
   background-color: #444;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Upewnij się, że nawigacja ma pozycję */
+  z-index: 10; /* Menu będzie nad innymi elementami */
 }
 
 nav a {
@@ -106,6 +108,7 @@ video {
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+  z-index: 20;
 }
 
 .hamburger span {
@@ -145,6 +148,7 @@ video {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  z-index: 10;
 }
 
 .nav-link:hover {
